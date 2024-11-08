@@ -54,5 +54,5 @@ jobs:
           resourceGroup: ${{ env.RESOURCE_GROUP }}
           containerAppName: ${{ env.CONTAINER_APP_NAME }}
           environmentVariables:
-            ASPNOTCORE_ENVIRONMENT=Development
+            ASPNETCORE_ENVIRONMENT=Development
     
